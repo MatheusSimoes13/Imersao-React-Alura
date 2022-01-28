@@ -53,6 +53,7 @@ export default function PaginaInicial() {
                     {/* Formulário */}
                     <Box
                         as="form"
+                        
                         onSubmit={function (event) {
                             event.preventDefault();
                             roteamento.push('/chat');
